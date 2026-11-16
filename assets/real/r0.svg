@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice"><defs>
+<radialGradient id="bg" cx=".5" cy=".45" r=".8"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".55"/><stop offset=".55" stop-color="#12102b"/><stop offset="1" stop-color="#05040c"/></radialGradient>
+<linearGradient id="fl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".35"/><stop offset="1" stop-color="#05040c" stop-opacity="0"/></linearGradient>
+<linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b5f73"/><stop offset=".18" stop-color="#2b2d3c"/><stop offset=".6" stop-color="#14151f"/><stop offset="1" stop-color="#07070c"/></linearGradient>
+<linearGradient id="wh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".5" stop-color="#d7d9e6"/><stop offset="1" stop-color="#8d90a8"/></linearGradient>
+<linearGradient id="gl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".6"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="ac" x1="0" x2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#fff"/></linearGradient>
+<filter id="bl"><feGaussianBlur stdDeviation="6"/></filter><filter id="bs"><feGaussianBlur stdDeviation="2"/></filter></defs>
+<rect width="400" height="300" fill="url(#bg)"/><ellipse cx="200" cy="250" rx="170" ry="26" fill="url(#fl)"/>
+<ellipse cx="200" cy="252" rx="120" ry="12" fill="#000" opacity=".7" filter="url(#bl)"/>
+<g><path d="M120 235 L150 70 Q153 55 168 55 L232 55 Q247 55 250 70 L280 235 Q281 248 266 248 L134 248 Q119 248 120 235Z" fill="url(#body)" stroke="#6b6f86" stroke-width="1"/>
+<path d="M150 70 Q153 58 168 58 L232 58 Q246 58 249 70 L252 90 L148 90Z" fill="url(#gl)" opacity=".7"/>
+<path d="M200 56 L200 248" stroke="#000" stroke-opacity=".5" stroke-width="2"/><rect x="190" y="95" width="20" height="120" rx="10" fill="#8b5cf6" opacity=".9" filter="url(#bs)"/><rect x="194" y="95" width="12" height="120" rx="6" fill="#fff" opacity=".85"/>
+<path d="M175 225 H225" stroke="#000" stroke-width="3" stroke-linecap="round" opacity=".6"/><circle cx="168" cy="72" r="3" fill="#8b5cf6"/><ellipse cx="200" cy="248" rx="70" ry="4" fill="#8b5cf6" opacity=".5" filter="url(#bs)"/></g>
+<circle cx="60" cy="50" r="2" fill="#fff" opacity=".6"/><circle cx="350" cy="80" r="1.6" fill="#8b5cf6"/><circle cx="330" cy="40" r="1.2" fill="#fff" opacity=".5"/></svg>

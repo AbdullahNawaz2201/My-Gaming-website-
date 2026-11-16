@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NEXUS GG – Ultimate Gaming Store</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/next.css"></head><body>
+<div class="pre" id="pre"><div class="logo">NEXUS GG</div><div class="bar"><i></i></div><small>LOADING ARENA…</small></div>
+<canvas id="fx"></canvas><div class="prog" id="prog"></div><div class="cur" id="cur"></div>
+<div class="orb o1"></div><div class="orb o2"></div>
+<div class="ov" id="ov"><i></i><i></i><i></i><i></i><i></i></div>
+<nav><div class="logo">NEXUS GG</div>
+<div class="links"><a href="#home">Home</a><a href="#cats">Categories</a><a href="#store">Store</a><a href="#deal">Deals</a><a href="#why">Why Us</a><a href="#news">Newsletter</a></div>
+<button class="cartbtn" id="cartBtn" aria-label="Open cart">🛒<b id="cnt">0</b></button></nav>
+
+<header class="hero" id="home"><div>
+<span class="chip">⚡ New season drop is live</span>
+<h1>Level up your <span class="gl" data-t="setup">setup</span></h1>
+<p>Premium consoles, pro controllers, headsets and keyboards. Built for gamers who refuse to lose. Free shipping over $100.</p>
+<a class="btn" href="#store">Shop Now</a><a class="btn o" href="#deal">Hot Deals</a>
+<div class="stats"><div><b data-n="12" data-s="K+">0</b><small>Happy gamers</small></div><div><b data-n="4.9" data-s="★" data-d="1">0</b><small>Avg rating</small></div><div><b data-n="24" data-s="h">0</b><small>Fast dispatch</small></div></div></div>
+<div class="stage"><div class="cube"><i>🎮</i><i>🎧</i><i>⌨️</i><i>🖥️</i><i>🕹️</i><i>🖱️</i></div></div></header>
+
+<div class="marq"><div id="mq"></div></div>
+
+<section id="cats"><h2 class="title reveal">Browse by category</h2><p class="sub reveal">Pick your gear</p><div class="cats reveal" id="catGrid"></div></section>
+
+<section id="store"><h2 class="title reveal">The Arsenal</h2><p class="sub reveal">Filter, sort and find your next upgrade</p>
+<div class="tools"><input type="search" id="q" placeholder="Search products…" aria-label="Search">
+<select id="sort" aria-label="Sort"><option value="f">Featured</option><option value="pa">Price: Low to High</option><option value="pd">Price: High to Low</option><option value="r">Top Rated</option></select>
+<label class="rng">Max $<input type="range" id="rg" min="20" max="700" step="10" value="700"><b id="rv">700</b></label></div>
+<div class="tools" id="pills"></div>
+<div class="grid" id="grid"></div></section>
+
+<section id="deal"><div class="deal reveal"><div><span class="chip">🔥 Flash Sale</span><h2 class="title">Ghost Pro Headset – 40% OFF</h2><p style="color:var(--mu)">Wireless 7.1 surround with 60 hour battery. Offer ends soon.</p>
+<div class="timer"><div><b id="th">00</b><small>HRS</small></div><div><b id="tm">00</b><small>MIN</small></div><div><b id="ts">00</b><small>SEC</small></div></div>
+<button class="btn" id="dealBtn">Grab the deal</button></div><div class="stage" style="height:260px"><div class="cube" style="animation-duration:9s;width:130px;height:130px"><i style="transform:translateZ(65px)">🎧</i><i style="transform:rotateY(90deg) translateZ(65px)">🎧</i><i style="transform:rotateY(180deg) translateZ(65px)">🎧</i><i style="transform:rotateY(-90deg) translateZ(65px)">🎧</i><i style="transform:rotateX(90deg) translateZ(65px)">⚡</i><i style="transform:rotateX(-90deg) translateZ(65px)">⚡</i></div></div></div></section>
+
+<section id="why"><h2 class="title reveal">Why NEXUS GG</h2><p class="sub reveal">Gaming gear without the headache</p>
+<div class="feat reveal"><div><em>🚚</em><h3>Free fast shipping</h3><p>Orders over $100 ship free and arrive in days.</p></div><div><em>🛡️</em><h3>2 year warranty</h3><p>Every product is covered, no questions asked.</p></div><div><em>↩️</em><h3>30 day returns</h3><p>Not happy? Send it back hassle free.</p></div><div><em>💳</em><h3>Secure payments</h3><p>Encrypted checkout and cash on delivery.</p></div></div></section>
+
+<section id="news"><h2 class="title reveal">Join the squad</h2><p class="sub reveal">Get drop alerts and secret discount codes.</p>
+<form class="nl reveal" id="nl" novalidate><input id="ne" type="email" placeholder="you@email.com" aria-label="Email"><button class="btn" type="submit">Subscribe</button></form><div class="err" id="nerr"></div></section>
+<footer>© 2026 NEXUS GG. Play hard. Ship fast.</footer>
+
+<div class="back" id="back"></div>
+<aside class="drawer" id="drawer"><div class="dh"><h2 class="title" style="margin:0;font-size:22px">Your Cart</h2><button class="x" id="cx" aria-label="Close">✕</button></div>
+<div class="items" id="items"></div><div class="tot"><span>Total</span><span id="tot">$0</span></div><button class="btn" id="co" style="width:100%">Checkout</button></aside>
+<div class="modal" id="qvm"></div>
+<div class="modal" id="com"></div>
+<div class="toast" id="toast"></div>
+
+<script src="js/main.js"></script><script src="js/next.js"></script></body></html>
